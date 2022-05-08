@@ -15,7 +15,28 @@ test._radixSort() # use radix sort
 test.traverse() # print out sorted
 ```
 
-More specific details can be found in code
+or BST data structure
+
+```python
+myBST = BST[int]() # declare BST
+myBST.insert(10)
+myBST.insert(5)
+myBST.insert(15)
+myBST.insert(20)
+myBST.insert(0)
+myBST.insert(7)
+myBST.insert(13)
+myBST.insert(6)
+myBST.insert(9)
+myBST.travel_inorder() # in order tree traversal
+print("\nSize", myBST.size()) # tree size
+print("Height", myBST._root.height) # tree height
+
+myBST.secede(myBST.search(15)) # secede tree with root 15
+myBST.remove(5) # remove tree with node 5
+myBST.search(10).data # search tree for node 5
+myBST.travel_inorder()
+```
 
 Data structures implemented so far
 1. List
@@ -35,12 +56,12 @@ Data structures to be implemented
 ## Visualizations
 Visualizing data structures and algorithms. For example, visualizing linked list sorting algorithms is implemented in `Visualization\ListSorting.py` and is implemented using Pygame, it is a very basic implementation
 
-![ListSorting](./Images/ListSorting.mp4)
+![ListSorting](/Images/ListSorting.mp4)
 
 ### Things Learned
 1. Pygame 
 2. Generators in Python
-3. 
+3. Networkx, Graphviz, and Matplotlib
 
 ## Leetcode
 Using the leetcode extension of vscode to keep track of my progress in completing leetcode problems.
