@@ -56,7 +56,7 @@ Data structures to be implemented
 ## Visualizations
 Visualizing data structures and algorithms. For example, visualizing linked list sorting algorithms is implemented in `Visualization\ListSorting.py` and is implemented using Pygame, it is a very basic implementation
 
-![ListSorting](/Images/ListSorting.mp4)
+![ListSorting](/Images/ListSorting.gif)
 
 ### Things Learned
 1. Pygame 
